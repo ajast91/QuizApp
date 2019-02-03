@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TheOceansQuiz</string>
+    <string name="title">Quiz App</string>
+    <string name="the_oceans_quiz">The Oceans Quiz</string>
+    <string name="question_1_text">1. How many oceans do exist on Earth?</string>
+    <string name="radio_button_1_q_1_text">2</string>
+    <string name="radio_button_2_q_1_text">3</string>
+    <string name="radio_button_3_q_1_text">4</string>
+    <string name="radio_button_4_q_1_text">5</string>
+    <string name="question_2_text">2. Which ocean is the smallest one?</string>
+    <string name="radio_button_1_q_2_text">Arctic Ocean</string>
+    <string name="radio_button_2_q_2_text">Pacific Ocean</string>
+    <string name="radio_button_3_q_2_text">Southern Ocean</string>
+    <string name="radio_button_4_q_2_text">Indian Ocean</string>
+    <string name="question_3_text">3. Which oceans have average depth greater than 3.500m?</string>
+    <string name="checkbox_1_q_3_text">Southern Ocean</string>
+    <string name="checkbox_2_q_3_text">Atlantic Ocean</string>
+    <string name="checkbox_3_q_3_text">Indian Ocean</string>
+    <string name="checkbox_4_q_3_text">Arctic Ocean</string>
+    <string name="question_4_text">4. What\'s the name of the deepest part of the world\'s ocean?</string>
+    <string name="fill_answer_q_4_hint">Write down your answer.</string>
+    <string name="question_5_text">5. What is its maximum-known depth?</string>
+    <string name="radio_button_1_q_5_text">36000m</string>
+    <string name="radio_button_2_q_5_text">8848m</string>
+    <string name="radio_button_3_q_5_text">10994m</string>
+    <string name="radio_button_4_q_5_text">100000m</string>
+    <string name="question_6_text">6. In which ocean is it located?</string>
+    <string name="fill_answer_q_6_hint">Write down full name of the ocean.</string>
+    <string name="thank_you_text">Thank you for your time! Don\'t forget to fill in your name and submit your answers!</string>
+    <string name="fill_name_hint">Name</string>
+    <string name="button_submit_answers_text">submit answers</string>
+    <string name="button_reset_text">reset</string>
+</resources>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ocean02"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.theoceansquiz.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/title_margin_bottom"
+            android:layout_marginTop="@dimen/title_margin_top"
+            android:gravity="center_horizontal"
+            android:text="@string/the_oceans_quiz"
+            android:textAllCaps="true"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/question_margin_bottom"
+            android:layout_marginLeft="@dimen/question_margin_left"
+            android:layout_marginRight="@dimen/question_margin_right"
+            android:text="@string/question_1_text"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/question_text_size"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_q_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/radio_group_1_margin_left">
+
+            <RadioButton
+                android:id="@+id/radio_button_1_q_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_1_q_1_text" />
+
+            <RadioButton
+                android:id="@+id/radio_button_2_q_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_2_q_1_text" />
+
+            <RadioButton
+                android:id="@+id/radio_button_3_q_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_3_q_1_text" />
+
+            <RadioButton
+                android:id="@+id/radio_button_4_q_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_4_q_1_text" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextQuestionStyle"
+            android:text="@string/question_2_text" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_q_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/radio_group_2_margin_left">
+
+            <RadioButton
+                android:id="@+id/radio_button_1_q_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_1_q_2_text" />
+
+            <RadioButton
+                android:id="@+id/radio_button_2_q_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_2_q_2_text" />
+
+            <RadioButton
+                android:id="@+id/radio_button_3_q_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_3_q_2_text" />
+
+            <RadioButton
+                android:id="@+id/radio_button_4_q_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_4_q_2_text" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextQuestionStyle"
+            android:text="@string/question_3_text" />
+
+        <CheckBox
+            android:id="@+id/checkbox_1_q_3"
+            style="@style/CheckBoxStyle"
+            android:text="@string/checkbox_1_q_3_text" />
+
+        <CheckBox
+            android:id="@+id/checkbox_2_q_3"
+            style="@style/CheckBoxStyle"
+            android:text="@string/checkbox_2_q_3_text" />
+
+        <CheckBox
+            android:id="@+id/checkbox_3_q_3"
+            style="@style/CheckBoxStyle"
+            android:text="@string/checkbox_3_q_3_text" />
+
+        <CheckBox
+            android:id="@+id/checkbox_4_q_3"
+            style="@style/CheckBoxStyle"
+            android:text="@string/checkbox_4_q_3_text" />
+
+        <TextView
+            style="@style/TextQuestionStyle"
+            android:text="@string/question_4_text" />
+
+        <EditText
+            android:id="@+id/fill_answer_q_4"
+            style="@style/EditTextStyle"
+            android:hint="@string/fill_answer_q_4_hint" />
+
+        <TextView
+            style="@style/TextQuestionStyle"
+            android:text="@string/question_5_text" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_q_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/radio_group_3_margin_left">
+
+            <RadioButton
+                android:id="@+id/radio_button_1_q_5"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_1_q_5_text" />
+
+            <RadioButton
+                android:id="@+id/radio_button_2_q_5"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_2_q_5_text" />
+
+            <RadioButton
+                android:id="@+id/radio_button_3_q_5"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_3_q_5_text" />
+
+            <RadioButton
+                android:id="@+id/radio_button_4_q_5"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_button_4_q_5_text" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextQuestionStyle"
+            android:text="@string/question_6_text" />
+
+        <EditText
+            android:id="@+id/fill_answer_q_6"
+            style="@style/EditTextStyle"
+            android:hint="@string/fill_answer_q_6_hint" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/thank_you_text_margin_bottom"
+            android:layout_marginLeft="@dimen/thank_you_text_margin_left"
+            android:layout_marginRight="@dimen/thank_you_text_margin_right"
+            android:layout_marginTop="@dimen/thank_you_text_margin_top"
+            android:text="@string/thank_you_text"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/thank_you_text_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/fill_name"
+            style="@style/EditTextStyle"
+            android:layout_marginBottom="@dimen/fill_name_margin_bottom"
+            android:hint="@string/fill_name_hint" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/linear_layout_button_margin_bottom"
+            android:layout_marginLeft="@dimen/linear_layout_button_margin_left"
+            android:layout_marginRight="@dimen/linear_layout_button_margin_right">
+
+            <Button
+                android:id="@+id/button_submit_answers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/button_submit_answers_margin_right"
+                android:layout_weight="1"
+                android:onClick="submitAnswers"
+                android:text="@string/button_submit_answers_text"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_reset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/button_reset_margin_left"
+                android:layout_weight="1"
+                android:onClick="reset"
+                android:text="@string/button_reset_text"
+                android:textAllCaps="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
